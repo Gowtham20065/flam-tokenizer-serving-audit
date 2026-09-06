@@ -110,7 +110,6 @@ python partA/prepare_corpus.py
 | A4 Recommendation memo | `partA/memo.md` | <=1 page: corrected headline table, routing recommendation, biggest caveat, production monitoring counter. |
 | B1-B4 Capacity reconciliation | `partB/calculations.md` | KV bytes/token, sequence ceiling validated against the log, preemption-cliff mechanism, goodput derived two independent ways, monitoring metric. |
 | C Decision memo | `partC/memo.md` | <=1 page: assumptions, arithmetic, numeric success threshold, dated kill criterion, Day-1 experiment. |
-| Defense prep | `DEFENSE_PREP.md` | Re-derivation cheat sheet and counterfactual answers for the live session. |
 
 **Known limitation:** Part A's token counts depend on `tiktoken`/`transformers` fetching `gpt2` and `xlm-roberta-base` at run time (needs network access to OpenAI's blob store and the HF Hub). If run offline, only Part B and the pre-computed `results/corrected_fertility.csv` will be available.
 
