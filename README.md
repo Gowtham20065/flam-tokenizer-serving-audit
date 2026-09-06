@@ -114,6 +114,5 @@ python partA/prepare_corpus.py
 
 **Known limitation:** Part A's token counts depend on `tiktoken`/`transformers` fetching `gpt2` and `xlm-roberta-base` at run time (needs network access to OpenAI's blob store and the HF Hub). If run offline, only Part B and the pre-computed `results/corrected_fertility.csv` will be available.
 
-> [!NOTE]
-> **Defense Session Playbook:** Review [`DEFENSE_PREP.md`](DEFENSE_PREP.md) before the live interview for on-the-spot derivations and counterfactual answers.
+
 
