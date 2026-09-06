@@ -1,0 +1,51 @@
+{
+  "eng": {
+    "flores_code": "eng_Latn",
+    "source_dataset": "openlanguagedata/flores_plus",
+    "split": "devtest",
+    "sentences": 1012,
+    "path": "corpus/eng.txt"
+  },
+  "hin": {
+    "flores_code": "hin_Deva",
+    "source_dataset": "openlanguagedata/flores_plus",
+    "split": "devtest",
+    "sentences": 1012,
+    "path": "corpus/hin.txt"
+  },
+  "kan": {
+    "flores_code": "kan_Knda",
+    "source_dataset": "openlanguagedata/flores_plus",
+    "split": "devtest",
+    "sentences": 1012,
+    "path": "corpus/kan.txt"
+  },
+  "tam": {
+    "flores_code": "tam_Taml",
+    "source_dataset": "openlanguagedata/flores_plus",
+    "split": "devtest",
+    "sentences": 1012,
+    "path": "corpus/tam.txt"
+  },
+  "tel": {
+    "flores_code": "tel_Telu",
+    "source_dataset": "openlanguagedata/flores_plus",
+    "split": "devtest",
+    "sentences": 1012,
+    "path": "corpus/tel.txt"
+  },
+  "ben": {
+    "flores_code": "ben_Beng",
+    "source_dataset": "openlanguagedata/flores_plus",
+    "split": "devtest",
+    "sentences": 1012,
+    "path": "corpus/ben.txt"
+  },
+  "mar": {
+    "flores_code": "mar_Deva",
+    "source_dataset": "openlanguagedata/flores_plus",
+    "split": "devtest",
+    "sentences": 1012,
+    "path": "corpus/mar.txt"
+  }
+}
